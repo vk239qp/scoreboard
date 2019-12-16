@@ -1,92 +1,97 @@
-.admin-page{
-    display: flex;
-    flex-direction: row;
-    background-color: black;
+.admin-page {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
 
-    .main{
-        flex: 1;
-        background-image: url("../images/trans.png");
-        background-position: 'center';
-        background-size: 'cover';
-        background-size: 100%;
-        background-repeat : 'no-repeat';
+  .main {
+    flex: 1;
+    background-image: url('../images/trans.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
-        h2{
-            color:white;
-        }
-        h3{
-            color:white;
-        }
-        .details1{
-            margin-top: 3rem;
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 800;
-            font-size: 2rem;
-            color: rgb(218, 218, 218);
-        }
-        .details2{
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 800;
-            font-size: 3rem;
-            color: rgb(230, 149, 0);
-        }
-        .details3{
-            text-align: center;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 800;
-            font-size: 3.5rem;
-            color: rgba(226, 226, 226, 0.678);
-            margin-bottom: 1rem;
-        }
-        .card-container{
-            height: 100%;
-            flex-direction: column;
-            
-            .details{
-                color: wheat;
-            }
-        }
-
-        
+    h2 {
+      color: white;
     }
-}
-.password-page{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.924);
-    background-image: url("../images/trans.png");
 
-    
-    .login{
-        align-content: center;
-        margin: 0 auto;
-        align-self: center;
-        margin: auto 0;
-        vertical-align: middle;
-        #login-text{
-            text-align: center;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.5rem;
-             color: rgb(238, 238, 238);
-             margin-bottom: 2rem;
-        }
-         #password{
-             text-align: center;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.5rem;
-             color: rgb(0, 156, 218);
-         }
-         #pwd_submit{
-             margin-top: 1rem;
-            text-align: center;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.5rem;
-         }
+    h3 {
+      color: white;
     }
+
+    .details1 {
+      margin-top: 3rem;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      font-size: 2rem;
+      color: rgb(218, 218, 218);
+    }
+
+    .details2 {
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      font-size: 3rem;
+      color: rgb(230, 149, 0);
+    }
+
+    .details3 {
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      font-size: 3.5rem;
+      color: rgba(226, 226, 226, 0.678);
+      margin-bottom: 1rem;
+    }
+
+    .card-container {
+      height: 100%;
+      flex-direction: column;
+
+      .details {
+        color: wheat;
+      }
+    }
+  }
 }
+
+.password-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.924);
+  background-image: url('../images/trans.png');
+
+  .login {
+    align-content: center;
+    align-self: center;
+    margin: auto 0;
+    vertical-align: middle;
+
+    #login-text {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      color: rgb(238, 238, 238);
+      margin-bottom: 2rem;
+    }
+
+    #password {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      color: rgb(0, 156, 218);
+    }
+
+    #pwd_submit {
+      margin-top: 1rem;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+    }
+  }
+}
+
 // .admin-page2{
 
 // }

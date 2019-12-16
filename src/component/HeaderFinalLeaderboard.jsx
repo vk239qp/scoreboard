@@ -1,22 +1,21 @@
-import React from "react";
+import React from 'react';
 
 export default class ContestantItem extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        }
-    }
-    render() {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-        return (
-            <div className='hListitem'>
-                <div id='hRank'>RANK</div>
-                <div id='hBranch'>BRANCH</div>
-                <div id='hGold'>GOLD</div>
-                <div id='hSilver'>SILVER</div>
-                <div id='hBronze'>BRONZE</div>
-                <div id='hTotal'>TOTAL</div>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="hListitem">
+        <div id="hRank">RANK</div>
+        <div id="hBranch">BRANCH</div>
+        <div id="hGold">GOLD</div>
+        <div id="hSilver">SILVER</div>
+        <div id="hBronze">BRONZE</div>
+        <div id="hTotal">TOTAL</div>
+      </div>
+    );
+  }
 }

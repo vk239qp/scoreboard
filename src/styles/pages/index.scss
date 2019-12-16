@@ -1,101 +1,99 @@
-.main-page{
-    display: flex;
-    background-color: black;
+.main-page {
+  display: flex;
+  background-color: black;
 
-    .main{
-        flex: 3;
-        width: 60vw;
-        height: 80vh;
-        background-image: url("../images/trans.png");
-        background-position: center;
-        background-size: cover;
-        background-repeat : no-repeat;
-        .event-box-main{
-           width: 100%;
-           
-         
-            #event-text{
-                position: fixed;
-                right: 0;
-                width: fit-content;
-                background-color: rgb(224, 224, 224);
-                font-family: 'Heebo', sans-serif;
-                font-weight: 700;
-                font-size: 1.5rem;
-                padding-left: 2rem;
-                padding-right: 2rem;
-            }
-        }
-        .web-header{
-            width: 100%;
-            height: 50%;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            padding-top: 2rem;
+  .main {
+    flex: 3;
+    width: 60vw;
+    height: 80vh;
+    background-image: url('../images/trans.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-           
-            .web-title1{
-                font-family: 'Heebo', sans-serif;
-                font-weight: 700;
-                margin-top: 1rem;
-                color: rgb(0, 156, 218);
-                font-size: 2.5rem;
-                opacity: 1.0;
-                text-align: center;
-        
-            }
-            .web-title2{
-                font-family: 'Heebo', sans-serif;
-                font-weight: 500;
-                margin-left: 1rem;
-                text-align: center;
-                margin-top: 1rem;
-            
-                color: white;
-                font-size: 2.5rem;
-                opacity: 1.0;
-        
-            }
-        }
-        #card-title{
-            font-family: 'Raleway', sans-serif;
-            font-size: 1.7rem;            
-            color: rgb(185, 185, 185);
-            text-align: center;
-            margin-top: 1rem;
-        }
-        .card-vertical{
-            display: flex;
-            flex-direction: column;
-            width: inherit;
-            margin-right: 7rem;
-            margin-left: 7rem;
-            justify-items: right;
-            
-            #card-container1{
-                display: flex;
-                margin-top: 1rem;
-                flex-direction: row;
-                padding:0 3rem;
-                align-self: center;
-            }
-            #card-container2{
-                align-self: center;
-                display: flex;
-                margin-top: 1rem;
-                flex-direction: row;
-                padding:0 3rem;
-            }
+    .event-box-main {
+      width: 100%;
 
-
-        }
-
-
+      #event-text {
+        position: fixed;
+        right: 0;
+        width: fit-content;
+        background-color: rgb(224, 224, 224);
+        font-family: 'Heebo', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
     }
+
+    .web-header {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 2rem;
+
+      .web-title1 {
+        font-family: 'Heebo', sans-serif;
+        font-weight: 700;
+        margin-top: 1rem;
+        color: rgb(0, 156, 218);
+        font-size: 2.5rem;
+        opacity: 1;
+        text-align: center;
+      }
+
+      .web-title2 {
+        font-family: 'Heebo', sans-serif;
+        font-weight: 500;
+        margin-left: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+
+        color: white;
+        font-size: 2.5rem;
+        opacity: 1;
+      }
+    }
+
+    #card-title {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.7rem;
+      color: rgb(185, 185, 185);
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .card-vertical {
+      display: flex;
+      flex-direction: column;
+      width: inherit;
+      margin-right: 7rem;
+      margin-left: 7rem;
+      justify-items: right;
+
+      #card-container1 {
+        display: flex;
+        margin-top: 1rem;
+        flex-direction: row;
+        padding: 0 3rem;
+        align-self: center;
+      }
+
+      #card-container2 {
+        align-self: center;
+        display: flex;
+        margin-top: 1rem;
+        flex-direction: row;
+        padding: 0 3rem;
+      }
+    }
+  }
 }
 
-#scores{
-    background-color: rgba(7, 7, 7, 0.568);
-    opacity: 1;    
+#scores {
+  background-color: rgba(7, 7, 7, 0.568);
+  opacity: 1;
 }

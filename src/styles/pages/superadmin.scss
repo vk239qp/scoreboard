@@ -1,12 +1,11 @@
+.admin-page2 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
 
-.admin-page2{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    height: 100vh;
-
-    #superButton{
-        margin-bottom: 2rem;
-        align-self: center;
-    }
+  #superButton {
+    margin-bottom: 2rem;
+    align-self: center;
+  }
 }
