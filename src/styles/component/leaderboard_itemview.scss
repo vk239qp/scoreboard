@@ -1,59 +1,59 @@
-.listItem{
-    width: 22vw;
-    height: 6vw;
+.listItem {
+  width: 22vw;
+  height: 6vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 240, 240);
+  border-radius: 1vw;
+  margin-bottom: 0.4rem;
+  align-items: center;
+  box-shadow: 4px 4px 8px rgb(58, 58, 58);
+
+  .marker {
+    flex: 0.1;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    background-color: #d4d806;
+  }
+
+  .scoreBox {
+    height: 9vh;
+    padding: 0 1rem;
     display: flex;
-    flex-direction: row;
-    background-color: rgb(240, 240, 240);
-    border-radius: 1vw;
-    margin-bottom: 0.4rem;
+    align-content: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(left bottom, rgb(0, 156, 218), rgb(0, 103, 144));
+    border: 0;
+    border-radius: 0.7vw;
+    flex: 0.3;
     align-items: center;
-    box-shadow: 4px 4px 8px rgb(58, 58, 58);
-    
-    .marker{
-        flex :0.1;
-        border-top-left-radius: 1vw;
-        border-bottom-left-radius: 1vw;
-        background-color: #d4d806;
+    margin-right: -2rem;
+    box-shadow: 4px 4px 8px rgb(0, 86, 121);
+
+    #score {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      font-size: 2.4rem;
+      color: white;
     }
+  }
 
-        .scoreBox{
-            height: 9vh;
-            padding: 0 1rem;
-            display: flex;
-            align-content: center;
-            justify-content: center;
-            background: -webkit-linear-gradient(left bottom,rgb(0, 156, 218), rgb(0, 103, 144));
-            border: 0ch;
-            border-radius: 0.7vw;
-            flex: 0.3;
-            align-items: center;
-            margin-right: -2rem;
-            box-shadow: 4px 4px 8px rgb(0, 86, 121);
-    
-            #score{
-                font-family: 'Montserrat', sans-serif;
-                font-weight: 200;
-                font-size: 2.4rem;
-                color: white;
-            }
-        }
-   
 }
 
-#rank{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-size: 2.3rem;
-    margin-left: 2rem;
-    color: rgb(15, 15, 15);
-    width: 1vw;
-    flex: 0.4;
+#rank {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 2.3rem;
+  margin-left: 2rem;
+  color: rgb(15, 15, 15);
+  width: 1vw;
+  flex: 0.4;
 }
 
-#branch{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 2rem;
-    color: rgb(29, 29, 29);
-    flex: 1;
+#branch {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: rgb(29, 29, 29);
+  flex: 1;
 }

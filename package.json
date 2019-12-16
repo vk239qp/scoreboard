@@ -33,6 +33,18 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint",
+      "pretty-quick — staged",
+      "git add"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",

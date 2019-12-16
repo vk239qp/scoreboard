@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default class Input extends React.Component {
   constructor(props) {
@@ -6,16 +6,16 @@ export default class Input extends React.Component {
 
     this.state = {
       active: (props.locked && props.active) || false,
-      value: props.value || "",
-      error: props.error || "",
-      label: props.label || "Score"
+      value: props.value || '',
+      error: props.error || '',
+      label: props.label || 'Score',
     };
   }
 
   changeValue(event) {
-    const value = event.target.value;
-    this.setState({ value, error: "" });
-    this.props.changeValues(this.props.field, event.target.value)
+    const { value } = event.target;
+    this.setState({ value, error: '' });
+    this.props.changeValues(this.props.field, event.target.value);
   }
 
   handleKeyPress(event) {
@@ -27,15 +27,15 @@ export default class Input extends React.Component {
   render() {
     const { active, value, error, label } = this.state;
     const { predicted, locked } = this.props;
-    const fieldClassName = `field ${(locked ? active : active || value) &&
-      "active"} ${locked && !active && "locked"}`;
+    const fieldClassName = `field ${(locked ? active : active || value) && 'active'} ${locked &&
+      !active &&
+      'locked'}`;
 
     return (
       <div className={fieldClassName}>
-        {active &&
-          value &&
-          predicted &&
-          predicted.includes(value) && <p className="predicted">{predicted}</p>}
+        {active && value && predicted && predicted.includes(value) && (
+          <p className="predicted">{predicted}</p>
+        )}
         <input
           id={1}
           type="number"
@@ -46,7 +46,7 @@ export default class Input extends React.Component {
           onFocus={() => !locked && this.setState({ active: true })}
           onBlur={() => !locked && this.setState({ active: false })}
         />
-        <label htmlFor={1} className={error && "error"}>
+        <label htmlFor={1} className={error && 'error'}>
           {error || label}
         </label>
       </div>

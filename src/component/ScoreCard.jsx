@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
 export default class ScoreCard extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            score: 0
-        }
-    }
+  constructor() {
+    super();
+    this.props = {
+      score: 0,
+    };
+  }
 
-    render() {
-        return (
-            <div className='card'>
-                <div className='circle'>
-                    <span>{this.props.score}</span>
-                </div>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="card">
+        <div className="circle">
+          <span>{this.props.score}</span>
+        </div>
+      </div>
+    );
+  }
 }
