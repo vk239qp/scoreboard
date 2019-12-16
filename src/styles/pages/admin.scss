@@ -5,7 +5,7 @@
 
   .main {
     flex: 1;
-    background-image: url("../images/trans.png");
+    background-image: url('../images/trans.png');
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -52,8 +52,6 @@
         color: wheat;
       }
     }
-
-
   }
 }
 
@@ -62,8 +60,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.924);
-  background-image: url("../images/trans.png");
-
+  background-image: url('../images/trans.png');
 
   .login {
     align-content: center;
